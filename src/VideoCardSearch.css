@@ -1,0 +1,26 @@
+.videoCardSearch {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.videoCardSearch__thumbnail {
+  margin-left: 20px;
+}
+.videoCardSearch__thumbnail > h2 {
+  font-size: 20px;
+}
+.videoCardSearch__thumbnail > p {
+  font-size: 12px;
+  color: gray;
+}
+.videoCardSearch__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.videoCardSearch__row > p {
+  margin-left: 5px;
+  font-size: 12px;
+}

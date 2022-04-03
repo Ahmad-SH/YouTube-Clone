@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+  
+
+}
+.header__left {
+    display: flex;
+    margin-left: 20px;
+}
+.header__logo{
+    height:25px;
+    margin-left: 20px;
+    object-fit: contain;
+}
+.header__input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray;
+}
+.header__input > input {
+flex: 1;
+border:none
+
+}
+.header__input > .MuiButton-root{
+  color: gray !important;
+  border-radius: 0;
+  border-left: 1px solid lightgray !important;
+  background-color: #f7f7f7;
+}
+
+.header__icons{
+    display: flex;
+    align-items: center;
+
+}
+.header__icon{
+    margin-right: 10px;
+
+}
